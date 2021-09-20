@@ -15,7 +15,7 @@ void draw() {
     propeller(0, 0);
     spin += acc;
     acc += PI/36000;
-    System.out.println(acc);
+    //System.out.println(acc);
   }
   fill(10, 10);
   rect(-250, -250, 500, 500);
